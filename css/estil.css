@@ -19,8 +19,7 @@ body {
 }
 
 /* header + menu */
-header,
-nav {
+.top {
     background-color: rgb(241, 245, 249);
     text-align: center;
 }
@@ -56,6 +55,10 @@ nav {
 
 nav li {
     padding: 6px;
+}
+
+nav a:hover {
+    color: rgb(254, 105, 106);
 }
 
 /* main */
@@ -111,6 +114,10 @@ article a:visited,
 article a:active {
     text-decoration: none;
     color: rgb(254, 105, 106);
+}
+
+article a:hover {
+    color: rgb(254, 105, 106, 0.5);
 }
 
 article blockquote {
