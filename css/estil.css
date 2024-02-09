@@ -1,3 +1,8 @@
+ :root {
+    --font-family-sans-serif: Tahoma, Verdana, sans-serif;
+    --font-family-serif: Georgia, 'Times New Roman', serif;
+ }
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    font-family: Tahoma, Verdana, sans-serif;
+    font-family: var(--font-family-sans-serif);
     font-size: large;
     color: rgb(43, 52, 69);
 }
@@ -38,7 +43,7 @@ header {
 }
 
 header .xeix {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: var(--font-family-serif);
     font-style: italic;
     font-size: 80px;
 }
@@ -110,7 +115,7 @@ article a:active {
 
 article blockquote {
     border-left: 10px solid rgb(254, 105, 106);
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: var(--font-family-serif);
     font-style: italic;
     font-weight: bold;
     margin: 0 40px 10px;
@@ -122,7 +127,7 @@ article blockquote p {
 }
 
 #xarxes dt {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: var(--font-family-serif);
     text-align: left;
     font-size: x-large;
     font-weight: bolder;
