@@ -1,3 +1,5 @@
+[![Deploy static content to Pages](https://github.com/rbuj-UOC/M4.252-PAC1/actions/workflows/static.yml/badge.svg)](https://github.com/rbuj-UOC/M4.252-PAC1/actions/workflows/static.yml)
+
 # PAC1
 
 ## Descripció de l'activitat
